@@ -1,0 +1,366 @@
+html {
+    overflow-x: hidden;
+}
+body {
+
+    font-family: 'Avenir Next', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.bg-blue {
+    background-color: #1c3054;
+}
+.bg-red {
+    background-color: #992933;
+}
+.bg-lightgrey {
+    background-color:rgb(235, 235, 235);
+}
+.bg-green {
+    background-color: #aec961;
+}
+.bg-orange {
+    background-color: #de9d35;
+}
+
+.bg-lightorange {
+    background-color: #ecba6a;
+}
+.bg-grey p, .bg-blackish p {
+    color: white;
+}
+.bg-grey a, .bg-blackish a {
+    color: white;
+}
+.bg-grey h1, .bg-grey h2, .bg-grey h3, .bg-darkgrey h6 {
+    color: white;
+}
+.bg-darkgrey h6, .bg-darkgrey p {
+    color: grey;
+}
+.grow { 
+    transition: all .2s ease-in-out;
+}
+.grow:hover {
+    transform: scale(1.01);
+}
+
+
+/* tekster */
+
+
+
+h1, h2, h3, h6 {
+    font-family: 'Avenir Next', 'lato', sans-serif;
+}
+h6 {
+    font-weight: bolder;
+    margin-left: 30px;
+}
+
+p {
+    font-family: 'Avenir Next', 'lato', sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* logo */ 
+.navbar-brand {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* footer */ 
+
+#footer i {
+    font-family: 'Avenir Next', sans-serif;
+    color: black;
+    opacity: 0.8;
+    transition: 0.2s;
+
+}
+#footer i:hover {
+    color: orange;
+}
+/* Buttons */
+.btn-anne {
+    background-color: #f29100;
+    font-family: 'Avenir Next', sans-serif;
+    color: white;
+    border-radius: 0;
+    border: none;
+}
+.btn-anne:hover {
+    background-color: #d17d00;
+    color: white;
+    border-radius: 0;
+    border: none;
+}
+
+.btn-anne-troels {
+    border-radius: 0;
+
+}
+.card {
+    font-family: 'Avenir Next', sans-serif;
+    background-color: transparent;
+    border: none;
+}
+section {
+    padding: 20px 0px 60px 0px;
+}
+.section-title {
+
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-title h1 {
+    padding: 150px 0;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+}
+
+
+
+
+
+.row {
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.under-footer {
+    color: white;
+}
+
+/* QUIZ START */
+
+.container-quiz {
+    display: flex;
+}
+
+.braille-quiz-tekst {
+  margin: 0 auto;
+}
+ul {
+    list-style-type: none;
+    cursor: pointer;
+    padding-right: 50px;
+}
+
+
+.quiz {
+    grid-area: quiz;
+    width: 800px;
+    height: 600px;
+    background-color: #1c3054;
+    margin: 100px auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, .2);
+    color: white;
+    font-family: 'Avenir Next', sans-serif;
+  }
+  
+  
+  
+  .slut {
+    width: 800px;
+    height: 500px;
+    margin: 0px auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px;
+    color: #1c3054;
+  }
+  
+  .slut h3 {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    
+  }
+  
+  
+  .btn {
+    margin-top: 200px;
+    font-family: 'Avenir Next', sans-serif;
+    border-radius: 0 0 5px 5px;
+    width: 100%;
+    height: 75px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #de9d35;
+    font-size: 25px;
+    transition: height .3s;
+  }
+  
+  .btn:hover {
+    height: 100px;
+    color: white;
+  }
+  
+  
+  /* Display værdier quiz */
+  
+  .quizStart {
+    display: block;
+    text-align: center;
+    padding-top: 150px;
+  }
+
+  .quizStart button {
+      margin-top: 230px;
+  }
+  
+  .alder {
+    display: none;
+    text-align: center;
+    padding-top: 150px;
+    line-height: 40px;
+  }
+
+  .alder ul {
+    padding: 0;
+  }
+  
+  .q1 {
+    display: none;
+    text-align: center;
+    padding-top: 120px;
+    line-height: 40px;
+  }
+  
+  .q1 img {
+    margin: 0 auto;
+    width: 100px;
+    max-width: 100%;
+  }
+  
+  .a1 {
+    display: none;
+    text-align: center;
+    padding-top: 110px;
+    line-height: 40px;
+  }
+
+  .a1 button {
+    margin-top: 230px;
+}
+
+  .a1 p, .a2 p, .a3 p, .a4 p, .a5 p, .a6 p {
+      padding: 0 40px;
+      color: white;
+  }
+
+  .quizStart p {
+      color: white;
+  }
+  
+  .q2 {
+    display: none;
+    text-align: center;
+    padding-top: 150px;
+    line-height: 40px;
+  }
+  
+  .a2 {
+    display: none;
+    text-align: center;
+    padding-top: 110px;
+    line-height: 40px;
+  }
+ 
+  
+  .q3 {
+    display: none;
+    text-align: center;
+    padding-top: 150px;
+    line-height: 40px;
+  }
+  
+  .a3 {
+    display: none;
+    text-align: center;
+    padding-top: 150px;
+    line-height: 40px;
+  }
+  .a3 button {
+    margin-top: 230px;
+}
+  
+  
+  .q4 {
+    display: none;
+    text-align: center;
+    padding-top: 120px;
+    line-height: 40px;
+  }
+  .q4 img {
+    width: 100px;
+    max-width: 100%;
+  }
+  
+  .a4 {
+    display: none;
+    text-align: center;
+    padding-top: 150px;
+    line-height: 40px;
+  }
+
+  .a4 button {
+      margin-top: 250px;
+  }
+  
+  .q5 {
+    display: none;
+    text-align: center;
+    padding-top: 120px;
+    line-height: 40px;
+  }
+  .q5 img {
+    width: 100px;
+    max-width: 100%;
+  }
+  
+  .a5 {
+    display: none;
+    text-align: center;
+    padding-top: 150px;
+    line-height: 40px;
+  }
+
+  .a5 button {
+      margin-top: 230px;
+  }
+
+  .a5 p {
+      padding: 0 40px;
+  }
+  
+  .q6 {
+    display: none;
+    text-align: center;
+    padding-top: 120px;
+    line-height: 40px;
+  }
+  .q6 img {
+    width: 200px;
+    max-width: 100%;
+  }
+  .a6 {
+    display: none;
+    text-align: center;
+    padding-top: 150px;
+    line-height: 40px;
+  }
+  
+  .a6 button {
+    margin-top: 230px;
+  }
+  
+  .slut {
+    display: none;
+  }
